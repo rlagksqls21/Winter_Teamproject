@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon');
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+}
+html,body{
+    overflow-x: hidden;
+    width:100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid #5a5a5a;
+}
+.nav{
+    width: 1500px;
+    height: 100%;
+    margin: auto;
+}
+.nav ul{
+    width:600px;
+    height: 60px;
+    margin:10px 0 0 60px;
+    float: left;
+}
+.nav ul li{
+    width:100px;
+    height: 60px;
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    line-height: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+.nav ul li a:hover{
+    color: #70c476;
+}
+.logo{
+    float: left;
+    width:240px;
+    margin-left: 30px;
+}
+.search{
+    float: left;
+    line-height: 20px;
+    margin: 30px 0 0 60px;
+    border: 4px solid #848484;
+}
+.icons{
+    width:200px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    margin-left: 70px;
+    
+}
+#icon{
+    margin-right: 20px;
+    line-height: 70px;
+}
+<!-- 여기까지 헤더 -->
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+section{
+    width: 100%;
+    height: 1080px;
+    min-width: 1800px;
+}
+.background{
+    width: 100%;
+    height: 1080px;
+    background-size: cover;
+    background-image: url(image/background.jpg);
+    
+}
+.main{
+    padding-top: 120px;
+    width:1840px;
+    height: 1000px;;
+    margin: 0 auto;
+}
+.side{
+    margin-left: 40px;
+    width:180px;
+    height: 600px;
+    float: left;
+    margin-right: 100px;
+}
+.side ul{
+    width:100%;
+    height: 100%;
+}
+.side ul li{
+    width:180px;
+    height: 80px;
+    margin-bottom: 55px;
+    transition: 0.2s;
+    opacity: 0.8;
+    
+}
+.side ul li a{
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    border: 7px solid #162939;
+    border-radius: 0 10px 40px;
+    color: #ffffff;
+    margin-top: 50px;
+    background-size: contain;
+    font-size: 26px;
+    transition: 0.2s;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.side ul li:hover{
+    margin-left: 30px;;
+}
+.side ul li:hover > a{
+    font-weight: bold;
+    font-size: 32px;
+    background-color: white;
+    color: #000000;
+}
+
+.list{
+    float: left;
+    width:1200px;
+    height: 780px;
+    border-left: 15px solid #ffffff;
+    border-radius: 10px 0 0 10px;
+}
+.list_menu{
+    width:1300px;
+    height: 780px;
+    margin-left: 40px;
+    background-color: #f0f8fa;
+    border-radius: 10px;
+    opacity: .8;
+}
+.list_menu > h1{
+    width:380px;
+    margin: auto;
+    font-size: 36px;
+    border-bottom: 3px solid black;
+    padding: 30px 0 10px 0;
+    font-family: 'Do Hyeon', sans-serif;
+}
+.list_menu > p{
+    margin-top: 60px;
+    font-size: 24px;
+    color: #313131;
+    font-family: 'Do Hyeon', sans-serif;
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 120px;
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #fff;
+    line-height: 120px;
+}
+.menu{
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+.menu::-webkit-scrollbar {
+    display: none;
+}
+.menu ul{
+    width: 1270px;
+    height: 100%;
+    margin: auto;
+}
+.menu li{
+    width:302px;
+    height: 300px;
+    margin: 15px 15px 15px 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+}
+.menu li img{
+    width: 298px;
+    height: 180px;
+    border-bottom: 2px solid black;
+}
+.menu li  a > h1{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 26px;    
+    font-family: 'Do Hyeon', sans-serif;
+}
+.menu li a > p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.menu li a:hover{
+    color: #8fa8d8;
+}
